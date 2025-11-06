@@ -1,10 +1,7 @@
 # Dizajn kompajlera (DK)
-
-## [Literatura](./Literatura)
-Preporučene knjige za predmet.
-
-## [Prezentacije](./Prezentacije)
-Profesorove prezentacije vezane za predmet.
-
-## [Vježbe](./Vjezbe)
-Auditorne i laboratorijske vježbe.
+- ### [Literatura](./Literatura)
+- ### [Prezentacije](./Prezentacije)
+- ### [Vježbe](./Vjezbe)
+  - #### [Uvod](./Vjezbe/dk_lv_01/)
+  - #### [Regex](./Vjezbe/dk_lv_02_regex/)
+  - #### [FSM](./Vjezbe/dk_lv_03_fsm/)

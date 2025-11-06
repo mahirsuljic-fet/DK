@@ -24,6 +24,5 @@ href=".*?"
 href="[^"]*"
 ```
 
-`.*` je *greedy*, match-ira koliko moze. Tako da `".*"` matchira sve od prvog `"` do zadnjeg `"`.
-
-`.*?`
+`.*` je *greedy*, match-ira koliko moze. Tako da `".*"` matchira sve od prvog `"` do zadnjeg `"`,
+ako nam to ne treba mozemo koristiti `.*?`.

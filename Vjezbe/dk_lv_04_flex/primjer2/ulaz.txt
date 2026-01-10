@@ -1,0 +1,3 @@
+Ovo je test
+Zelim izbrojati linije slova rijeci
+Zdravo svima iz 3 linije

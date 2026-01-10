@@ -1,0 +1,8 @@
+{
+  "StudentID": 1,
+  "Name":"Mirza",
+  "Lastname":"Teletovic",
+  "Teams" :[ "BrooklynNets", "MilwakueeBucks"],
+  "Address" : { "City":"Jablanica", "Country":"BiH" },
+  "Injured" : false
+}

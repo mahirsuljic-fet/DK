@@ -1,0 +1,7 @@
+start → '{' pairs '}'
+
+pairs → pair pairs_tail
+pairs_tail → ',' pair pairs_tail | ε
+pair → STRING ':' value
+
+value → STRING | NUMBER | 'true' | 'false' | 'null' | start

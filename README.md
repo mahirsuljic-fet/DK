@@ -7,6 +7,7 @@
   - #### [FSM](./Vjezbe/dk_lv_03_fsm/)
 - ### Useful
   - #### [Elimination of Left Recursion Tool](https://cyberzhg.github.io/toolbox/left_rec)
+  - #### [Grammar checker and AST generator](http://lab.antlr.org/)
 - ### YouTube
   - #### [FSM & Regex Playlist](https://www.youtube.com/playlist?list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev)
   - #### [Compiler Design Playlist (nakon FSM)](https://www.youtube.com/playlist?list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q)

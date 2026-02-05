@@ -11,3 +11,9 @@
 - ### YouTube
   - #### [FSM & Regex Playlist](https://www.youtube.com/playlist?list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev)
   - #### [Compiler Design Playlist (nakon FSM)](https://www.youtube.com/playlist?list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q)
+- ### [Zadaće](./Zadace/)
+  - #### [Zadaća 1](./Zadace/zadaca1/)
+  - #### [Zadaća 2](./Zadace/zadaca2/)
+  - #### [Zadaća 3](./Zadace/zadaca3/)
+  - #### [Zadaća 4](./Zadace/zadaca4/)
+  - #### [Projekat](./Zadace/projekat/)

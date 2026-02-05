@@ -1,0 +1,95 @@
+ZADATAK 1
+
+Lesson 1:
+\w+
+
+Lesson 2:
+\d+
+
+Lesson 3:
+.*\.
+
+Lesson 4:
+[cmf]an
+
+Lesson 5:
+[^b]og
+
+Lesson 6:
+[A-Z].*
+
+Lesson 7:
+wazz+up
+
+Lesson 8:
+aa.*
+
+Lesson 9:
+\d+ files? found\?
+
+Lesson 10:
+\d+\.\s+abc
+
+Lesson 11:
+^Mission.*
+
+Lesson 12:
+^(file.*)\.pdf
+
+Lesson 13:
+(\w+ (\d+))
+
+Lesson 14:
+(\d+)x(\d+)
+
+Lesson 15:
+I love (cats|dogs)
+
+Lesson 16:
+.*
+
+Problem 1:
+[+-]?\d+(\,\d+)?(\.\d+(e\d+)?)?$
+
+Problem 2:
+(\d\s)?\(?(\d{3})\)?([-\s]?\d{3,4}){2}
+
+Problem 3:
+rješenje: ([\w\.]+)
+sve:      ([\w\.]+)(\+\w+)?@[\w\.]+
+
+Problem 4:
+rješenje: <(\w+)
+sve:      <(\w+).*?>.*</\w+>
+
+Problem 5:
+([\w]+)\.(jpg|png|gif)$
+
+Problem 6:
+^\s+(.*)\s*$
+
+Problem 7:
+at \w+\.\w+\.(\w+)\((.*?):(\d+)\)
+
+Problem 8:
+(\w+)://([\w-]+(\.\w+)?)(:(\d+))?/.*
+
+
+ZADATAK 2
+
+trenutne, stare:  ([AEOJKMT]|\d)\d{2}-[AEOJKMT]-\d{3}
+taxi, privremene: T[TA]-\d{6}
+diplomatske:      \d{2}-[ACME]-\d{3}
+
+sve: (([AEOJKMT]|\d)\d{2}-[AEOJKMT]-\d{3})|(T[TA]-\d{6})|(\d{2}-[ACME]-\d{3})
+ili: ((([AEOJKMT]|\d)\d{2}-[AEOJKMT]-)|(T[TA]-\d{3})|(\d{2}-[ACME]-))\d{3}
+
+
+ZADATAK 3
+
+simple: \d{1,3}(\.\d{1,3}){3}(:\d{1,5})?
+
+id:   0|1\d{0,2}|2[0-4]\d|25[0-5]
+port: [1-5]?\d{1,4}$|6[0-4]\d{3}|65[0-5][0-3][0-5]
+
+strict: (0|1\d{0,2}|2[0-4]\d|25[0-5])(\.(0|1\d{0,2}|2[0-4]\d|25[0-5])){3}(:([1-5]?\d{1,4}$|6[0-4]\d{3}|65[0-5][0-3][0-5]))?

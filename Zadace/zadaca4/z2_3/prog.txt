@@ -1,0 +1,22 @@
+var counter;
+var limit = 10;
+
+fun increment(x) {
+  var result = x + 1;
+  if (result < limit) {
+    counter = result;
+  }
+}
+
+fun calculate(a, b) {
+  var sum = a + b;
+  var product = a * b;
+  var comparison = sum == product;
+  if (sum > 100) {
+    result = sum / 2;
+  }
+}
+
+var fahr;
+var celz = 100;
+fahr = celz * 9 / 5 + 32;

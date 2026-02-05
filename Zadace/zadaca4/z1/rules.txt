@@ -1,0 +1,10 @@
+start → '{' pairs '}' | list
+
+pairs → pair pairs_tail | list | ε
+pairs_tail → ',' pair pairs_tail | ε
+pair → STRING ':' value
+list → '[' list_value list_tail ']'
+list_tail → ',' list_value list_tail | ε
+list_value → value | ε
+
+value → STRING | NUMBER | 'true' | 'false' | 'null' | list | start

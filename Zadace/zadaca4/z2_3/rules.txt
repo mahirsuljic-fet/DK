@@ -1,0 +1,60 @@
+Start ->
+    | StatementTail
+
+StatementTail ->
+    | Statement StatementTail
+    | ε
+
+Statement ->
+    | FUN IDENTIFIER LEFT_PAREN FuncParams RIGHT_PAREN Scope
+    | IF LEFT_PAREN Expr RIGHT_PAREN Scope
+    | VAR IDENTIFIER EQUAL Expr SEMICOLON
+    | VAR IDENTIFIER SEMICOLON
+    | IDENTIFIER EQUAL Expr SEMICOLON
+    | Expr SEMICOLON
+
+Scope ->
+    | LEFT_BRACE Start RIGHT_BRACE
+
+FuncParams ->
+    | IDENTIFIER FuncParamTail
+    | ε
+
+FuncParamTail ->
+    | COMMA IDENTIFIER FuncParamTail
+    | ε
+
+Expr ->
+    | IDENTIFIER EQUAL Expr 
+    | RelationalExpr
+
+RelationalExpr ->
+    | AdditiveExpr RelationalTail
+
+RelationalTail ->
+    | EQUAL_EQUAL AdditiveExpr RelationalTail
+    | BANG_EQUAL AdditiveExpr RelationalTail
+    | GREATER AdditiveExpr RelationalTail
+    | LESS AdditiveExpr RelationalTail
+    | ε
+
+AdditiveExpr ->
+    | MultiplicativeExpr AdditiveTail
+
+AdditiveTail ->
+    | PLUS MultiplicativeExpr AdditiveTail
+    | MINUS MultiplicativeExpr AdditiveTail
+    | ε
+
+MultiplicativeExpr ->
+    | BaseExpr MultiplicativeTail
+
+MultiplicativeTail ->
+    | STAR BaseExpr MultiplicativeTail
+    | SLASH BaseExpr MultiplicativeTail
+    | ε
+
+BaseExpr ->
+    | LEFT_PAREN Expr RIGHT_PAREN
+    | NUMBER
+    | IDENTIFIER
